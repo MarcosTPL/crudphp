@@ -1,2 +1,2 @@
 <?php
-echo "Hellow word";
+echo "Hellow world";
