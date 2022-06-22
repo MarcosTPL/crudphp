@@ -1,5 +1,5 @@
 function abreLinkLogin() {
-  window.location = "login.html";
+  window.location = "login.php";
 }
 
 function abreLinkRegister() {

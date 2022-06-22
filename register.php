@@ -10,7 +10,7 @@
 </head>
 
 <body>
-    <a href="index.html">voltar</a>
+    <a href="index.php">voltar</a>
     <div class="box">
         <form id="registro" action="register.php" method="POST">
             <fieldset>

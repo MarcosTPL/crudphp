@@ -11,7 +11,7 @@
     
 </head>
 <body>
-    <a href="index.html">voltar</a>
+    <a href="index.php">voltar</a>
     <div>
         <h1>Login</h1>
         <input type="text" placeholder="Nome">
