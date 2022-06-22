@@ -1,11 +1,3 @@
-function abreLinkLogin() {
-  window.location = "login.html";
-}
-
-function abreLinkRegister() {
-  window.location = "register.php";
-}
-
 function processForm(e) {
   if (e.preventDefault) e.preventDefault();
 

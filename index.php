@@ -11,11 +11,10 @@
 
 </head>
 <body>
-    <div>
-        <h1>Index</h1>
-        <br><br>
-        <button id="fazer-login" class="btn-fazerlogin"onclick="abreLinkLogin();">Login</button>
-        <button id="fazer-registro" class="btn-fazer-registro"onclick="abreLinkRegister();">Register</button>
+    <h1>Index</h1>
+    <div class="box">
+        <a href="">Login</a>
+        <a href="">Register</a>
     </div>
 </body>
 <script src="js/index.js"></script>
