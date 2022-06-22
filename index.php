@@ -7,9 +7,14 @@
     <title>Index</title>
     <link rel="stylesheet" type="text/css" href="css/reset.css">
     <link rel="stylesheet" type="text/css" href="css/style-index.css">
-
-
 </head>
+<style>body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-image: linear-gradient(to right, rgb(20, 147, 228), rgb(17, 54, 71));
+    text-align: center;
+    color: white;
+}
+</style>
 <body>
     <h1>Index</h1>
     <div class="box">
