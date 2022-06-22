@@ -10,7 +10,7 @@
 </head>
 
 <body>
-    <a href="index.php">voltar</a>
+    <a href="index.phpzz">voltar</a>
     <div class="box">
         <form id="registro" action="register.php" method="POST">
             <fieldset>
@@ -24,6 +24,11 @@
                 <div class="inputBox">
                     <input type="text" name="email" id="email" class="inputUser" required>
                     <label for="email" class="labelInput">Email</label>
+                </div>
+                <br><br>
+                <div class="inputBox">
+                    <input type="password" name="senha" id="senha" class="inputUser" required>
+                    <label for="senha" class="labelInput">Senha</label>
                 </div>
                 <br><br>
                 <div class="inputBox">
