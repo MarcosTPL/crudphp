@@ -16,18 +16,30 @@
     font-family: Arial, Helvetica, sans-serif;
     background-image: linear-gradient(to right, rgb(20, 147, 228), rgb(17, 54, 71));
     
-}
+    }
+    div{
+            background-color: rgba(0, 0, 0, 0.6);
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%,-50%);
+            padding: 80px;
+            border-radius: 15px;
+            color: #fff;
+    }
 </style>
 
 <body>
     <a href="index.php">voltar</a>
     <div>
         <h1>Login</h1>
-        <input type="text" placeholder="Nome">
-        <br><br>
-        <input type="password" placeholder="Senha">
-        <br><br>
-        <button>Enviar</button>
+        <form action="" method="POST">
+            <input type="text" name="email" placeholder="Email">
+            <br><br>
+            <input type="password" name="senha" placeholder="Senha">
+            <br><br>
+            <input class="inputSubmit" type="submit" name="submit" value="Enviar">
+        </form>
     </div>
 </body>
 <script src="js/login.js"></script>
