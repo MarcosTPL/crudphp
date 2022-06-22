@@ -10,7 +10,7 @@
 </head>
 
 <body>
-    <a href="index.html">volta</a>
+    <a href="index.html">voltar</a>
     <div class="box">
         <form id="registro" action="register.php" method="POST">
             <fieldset>
@@ -63,6 +63,6 @@
         </form>
     </div>
 </body>
-<script src="js/index.js?v=2"></script>
+<script src="js/register.js?v=2"></script>
 
 </html>
