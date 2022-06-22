@@ -10,6 +10,15 @@
 
     
 </head>
+
+<style>
+    body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-image: linear-gradient(to right, rgb(20, 147, 228), rgb(17, 54, 71));
+    
+}
+</style>
+
 <body>
     <a href="index.php">voltar</a>
     <div>
