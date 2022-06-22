@@ -36,7 +36,7 @@ $estado = $data['estado'];
 $endereco = $data['endereco'];
 
 
-$result = $conexao->query("INSERT INTO usuarios(nome,email,telefone,sexo,data_nasc,cidade,estado,endereco) 
+$result = $conexao->query("INSERT INTO usuarios(nome,email,senha,telefone,sexo,data_nasc,cidade,estado,endereco) 
         VALUES ('$nome','$email','$senha','$telefone','$sexo','$data_nasc','$cidade','$estado','$endereco')");
 
 if ($result) {
