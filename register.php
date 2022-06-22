@@ -10,6 +10,7 @@
 </head>
 
 <body>
+    <a href="index.html">volta</a>
     <div class="box">
         <form id="registro" action="register.php" method="POST">
             <fieldset>
