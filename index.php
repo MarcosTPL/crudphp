@@ -13,8 +13,8 @@
 <body>
     <h1>Index</h1>
     <div class="box">
-        <a href="">Login</a>
-        <a href="">Register</a>
+        <a href="login.html">Login</a>
+        <a href="register.php">Register</a>
     </div>
 </body>
 <script src="js/index.js"></script>
