@@ -27,13 +27,26 @@
             border-radius: 15px;
             color: #fff;
     }
+    .inputSubmit{
+    background-color: dodgerblue;
+    border: none;
+    padding: 15px;
+    width: 100%;
+    border-radius: 10px;
+    color: white;
+    font-size: 15px;
+    }
+    .inputSubmit:hover{
+    background-color: deepskyblue;
+    cursor: pointer;
+    }
 </style>
 
 <body>
     <a href="index.php">voltar</a>
     <div>
         <h1>Login</h1>
-        <form action="" method="POST">
+        <form action="teste-login.php" method="POST">
             <input type="text" name="email" placeholder="Email">
             <br><br>
             <input type="password" name="senha" placeholder="Senha">
