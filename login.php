@@ -46,7 +46,7 @@
     <a href="index.php">voltar</a>
     <div>
         <h1>Login</h1>
-        <form action="teste-login.php" method="POST">
+        <form action="testeLogin.php" method="POST">
             <input type="text" name="email" placeholder="Email">
             <br><br>
             <input type="password" name="senha" placeholder="Senha">
