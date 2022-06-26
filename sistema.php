@@ -18,6 +18,13 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.1.3/dist/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
     <title>SISTEMA  | GN</title>
     <link rel="stylesheet" type="text/css" href="css/style-sistema.css">
+    <style>
+        body{
+        background-image: linear-gradient(to right, rgb(20, 147, 228), rgb(17, 54, 71));
+        color:white;
+        text-align: center;
+        }
+    </style>
 </head>
 <body>
     <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
@@ -31,6 +38,7 @@
             <a href="" class="btn btn-danger me-5">Sair</a>
         </div>
     </nav>
+    <br>
     <?php
         echo "<h1>Bem vindo <u>$logado</u></h1>";
     ?>
