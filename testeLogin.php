@@ -12,10 +12,18 @@
         // print_r('<br>');
         // print_r('Senha: ' . $senha);
 
-
         $result = $conexao->query("SELECT * FROM usuarios WHERE email = '$email' and senha = '$senha'");
 
-        print_r($result);
+        // print_r($result);
+
+        if(mysqli_num_rows($result) < 1)
+        {
+            
+        }
+        else
+        {
+            
+        }
     }
     else
     {
