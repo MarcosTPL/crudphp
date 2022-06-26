@@ -7,6 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Formulário | GN</title>
     <link rel="stylesheet" type="text/css" href="css/style-register.css">
+    
 </head>
 
 <body>
@@ -68,6 +69,7 @@
         </form>
     </div>
 </body>
-<script src="js/register.js?v=2"></script>
+
+<script src="js/register.js"></script>
 
 </html>
