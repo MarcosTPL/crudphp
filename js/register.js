@@ -22,6 +22,7 @@ function processForm(e) {
       console.log(data);
       if (data == "true") {
         alert("Usuário cadastrado com sucesso!");
+        window.location="login.php";
       } else {
         alert("Erro ao cadastrar usuário!");
       }

@@ -37,7 +37,7 @@ $endereco = $data['endereco'];
 
 
 $result = $conexao->query("INSERT INTO usuarios(nome,email,senha,telefone,sexo,data_nasc,cidade,estado,endereco) 
-        VALUES ('$nome','$email','$senha','$telefone','$sexo','$data_nasc','$cidade','$estado','$endereco')");
+VALUES ('$nome','$email','$senha','$telefone','$sexo','$data_nasc','$cidade','$estado','$endereco')");
 
 if ($result) {
   echo "true";
