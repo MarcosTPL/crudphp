@@ -1,5 +1,6 @@
 <?php
     session_start();
+    include_once('config.php');
     // print_r($_SESSION);
     if((!isset($_SESSION['email']) == true) and (!isset($_SESSION['senha']) == true))
     {   
@@ -8,6 +9,12 @@
         header('Location: login.php');
     }
     $logado = $_SESSION['email'];
+
+    $sql = "SELECT * FROM usuarios ORDER BY id DESC";
+
+    $result = $conexao->query($sql);
+
+    print_r($result);
 ?>
 <!DOCTYPE html>
 <html lang="en">
