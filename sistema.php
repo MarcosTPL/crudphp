@@ -27,13 +27,13 @@
     <style>
         body{
         background-image: linear-gradient(to right, rgb(20, 147, 228), rgb(17, 54, 71));
-        color: white;
+        /*color: white;*/
         text-align: center;
-        }
-        thead{
+        }/*
+        tbody{
             border-color: white;
         }
-        
+        */
     </style>
 </head>
 <body>
@@ -74,8 +74,8 @@
                 while($user_data = mysqli_fetch_assoc($result))
                 {
                     echo "<tr>";
-                    echo "<td>" . $user_data['id'] . "</td>";
-                    /*echo "<td>" .$user_data['nome']. "</td>";
+                    echo "<td>" .$user_data['id'] . "</td>";
+                    echo "<td>" .$user_data['nome']. "</td>";
                     echo "<td>" .$user_data['email']. "</td>";
                     echo "<td>" .$user_data['senha']. "</td>";
                     echo "<td>" .$user_data['telefone']. "</td>";
@@ -85,7 +85,8 @@
                     echo "<td>" .$user_data['estado']. "</td>";
                     echo "<td>" .$user_data['endereco']. "</td>";
                     echo "<td>ações</td>";
-                    */echo "<tr>";
+                    echo "<tr>";
+                   
                     
                 }
             ?>
