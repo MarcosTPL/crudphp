@@ -1,7 +1,7 @@
-function processForm(e) {
+/*function processForm(e) {
   if (e.preventDefault) e.preventDefault();
-
-  /* do what you want with the form */
+*/
+  /* do what you want with the form *//*
   var myForm = document.getElementById('registro');
   formData = new FormData(myForm);
   var object = {};
@@ -29,7 +29,9 @@ function processForm(e) {
   ).catch(function (err) {
     alert("Erro ao cadastrar usuário!");
   });
+  */
   // You must return false to prevent the default form behavior
+  /*
   return false;
 }
 
@@ -39,6 +41,6 @@ if (form.attachEvent) {
 } else {
   form.addEventListener("submit", processForm);
 }
-
+*/
 
 
