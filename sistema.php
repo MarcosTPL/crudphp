@@ -14,7 +14,7 @@
 
     $result = $conexao->query($sql);
 
-    print_r($result);
+    /*print_r($result);*/
 ?>
 <!DOCTYPE html>
 <html lang="en">
@@ -27,13 +27,14 @@
     <style>
         body{
         background-image: linear-gradient(to right, rgb(20, 147, 228), rgb(17, 54, 71));
-        /*color: white;*/
+        color: white;
         text-align: center;
-        }/*
-        tbody{
-            border-color: white;
         }
-        */
+        .table-bg{
+            background: rgba(0, 0, 0, 0.3);
+            border-radius: 15px 15px 0 0;
+        }
+        
     </style>
 </head>
 <body>
@@ -52,8 +53,8 @@
     <?php
         echo "<h1>Bem vindo <u>$logado</u></h1>";
     ?>
-    <div>
-    <table class="table" >
+    <div class="m-5">
+    <table class="table text-white table-bg">
         <thead>
             <tr>
                 <th scope="col">#</th>
