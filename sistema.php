@@ -86,8 +86,6 @@
                     echo "<td>" .$user_data['endereco']. "</td>";
                     echo "<td>ações</td>";
                     echo "<tr>";
-                   
-                    
                 }
             ?>
         </tbody>
