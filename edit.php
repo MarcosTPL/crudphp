@@ -33,6 +33,10 @@ else
 }
 
 }
+else
+{
+    header('Location: sistema.php');
+}
 
 ?>
 
@@ -44,7 +48,7 @@ else
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Formulário | GN</title>
-    <link rel="stylesheet" type="text/css" href="css/style-register.css">
+    <link rel="stylesheet" type="text/css" href="css/style-edit.css">
     
 </head>
 
@@ -102,7 +106,8 @@ else
                     <label for="endereco" class="labelInput">Endereço</label>
                 </div>
                 <br><br>
-                <input type="submit" name="submit" id="submit">
+                <input type="hidden" name="id" value="<?php echo $id ?>">
+                <input type="submit" name="update" id="update">
             </fieldset>
         </form>
     </div>
