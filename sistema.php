@@ -11,7 +11,8 @@
     $logado = $_SESSION['email'];
     if(!empty($_GET['search']))
     {
-       echo "contem algo, pesquisar";
+        $data = $_GET['search'];
+        $sql = "SELECT * FROM usuarios WHERE id LIKE '%$data%' or email LIKE '%$data%' or nome LIKE '%$data%' ORDER BY id DESC";
     }
     else{
         $sql = "SELECT * FROM usuarios ORDER BY id DESC";
