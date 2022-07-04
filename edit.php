@@ -3,8 +3,7 @@
 if(!empty($_GET['id']))
 {
   
-
-include_once __DIR__ . '/../config.php';
+include_once ('config.php');
 
 $id = $_GET['id'];
 
