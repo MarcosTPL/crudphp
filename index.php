@@ -7,7 +7,7 @@
     <title>Index</title>
     <link rel="stylesheet" type="text/css" href="css/style-index.css">
 </head>
-<style>
+<style>/*
 body{
     font-family: Arial, Helvetica, sans-serif;
     background-image: linear-gradient(to right, rgb(20, 147, 228), rgb(17, 54, 71));
@@ -32,7 +32,7 @@ a{
 }
 a:hover{
     background-color: dodgerblue;
-}
+}*/
 </style>
 <body>
     <h1>Index</h1>
