@@ -4,7 +4,7 @@ if(!empty($_GET['id']))
 {
   
 
-  include_once ('config.php');
+include_once __DIR__ . '/../config.php';
 
 $id = $_GET['id'];
 
@@ -39,7 +39,6 @@ else
 }
 
 ?>
-
 <!DOCTYPE html>
 <html lang="en">
 
@@ -113,6 +112,6 @@ else
     </div>
 </body>
 
-<script src="js/edait.js"></script>
+<script src="js/edit.js"></script>
 
 </html>

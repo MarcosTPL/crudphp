@@ -1,24 +1,5 @@
 <?php
 
-// print_r('Nome: ' . $data['nome']);
-// print_r('<br>');
-// print_r('Email: ' . $data['email']);
-// print_r('<br>');
-// print_r('Senha: ' . $data['senha']);
-// print_r('<br>');
-// print_r('Telefone: ' . $data['telefone']);
-// print_r('<br>');
-// print_r('Sexo: ' . $data['genero']);
-// print_r('<br>');
-// print_r('Data de nascimento: ' . $data['data_nascimento']);
-// print_r('<br>');
-// print_r('Cidade: ' . $data['cidade']);
-// print_r('<br>');
-// print_r('Estado: ' . $data['estado']);
-// print_r('<br>');
-// print_r('Endereço: ' . $data['endereco']);
-// print_r('<br>');
-
 include_once __DIR__ . '/../config.php';
 
 // receive post data json
