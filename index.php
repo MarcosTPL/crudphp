@@ -14,5 +14,5 @@
         <a href="register.php">Register</a>
     </div>
 </body>
-<script src="js/index.js"></script>
+<script src="js/indexa.js"></script>
 </html>
