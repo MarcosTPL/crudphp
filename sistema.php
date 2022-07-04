@@ -29,21 +29,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.1.3/dist/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
     <title>SISTEMA  | GN</title>
+    <link rel="stylesheet" type="text/css" href="css/sistema-style.css">
     <style>
-        body{
-        background-image: linear-gradient(to right, rgb(20, 147, 228), rgb(17, 54, 71));
-        color: white;
-        text-align: center;
-        }
-        .table-bg{
-            background: rgba(0, 0, 0, 0.3);
-            border-radius: 15px 15px 0 0;
-        }
-        .box-search{
-            display: flex;
-            justify-content: center;
-            gap: .1%;
-        }
+       
         
     </style>
 </head>
