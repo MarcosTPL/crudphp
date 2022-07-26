@@ -7,7 +7,7 @@ $data = json_decode(file_get_contents("php://input"), true);
 //print_r($_REQUEST);
 if (!empty($data['email']) && !empty($data['senha'])) {
   // Acessa
-  include_once('../config.php');
+  include_once('../../config.php');
   $email = $data['email'];
   $senha = $data['senha'];
 

@@ -16,7 +16,7 @@ function processForm(e) {
   // está transforando o json em um json string para enviar para o servidor
   var json = JSON.stringify(object);
 
-  fetch('api/valida-login.php', {
+  fetch('crudphp/api/valida-login.php', {
     method: 'POST',
     headers: {
       'Content-Type': 'application/json'
@@ -46,5 +46,9 @@ if (form.attachEvent) {
 } else {
   // escutando que quando o evento submit for disparado, chame a funcao processForm
   form.addEventListener("submit", processForm);
+}
+
+function voltarIndex() {
+  window.location = 'index.php';
 }
 
