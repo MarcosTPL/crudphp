@@ -1,6 +1,6 @@
 <?php
 
-include_once __DIR__ . '/../../config.php';
+include_once __DIR__ . '/../config.php';
 
 // receive post data json
 $data = json_decode(file_get_contents("php://input"), true);

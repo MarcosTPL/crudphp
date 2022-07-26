@@ -28,8 +28,8 @@ $result = $conexao->query($sql);
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.1.3/dist/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
     <title>SISTEMA | GN</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
-    <link rel="stylesheet" type="text/css" href="crudphp/css/sistema-style.css">
-    <link rel="stylesheet" type="text/css" href="crudphp/css/edit-new.css">
+    <link rel="stylesheet" type="text/css" href="css/sistema-style.css">
+    <link rel="stylesheet" type="text/css" href="css/edit-new.css">
 </head>
 
 <body>
@@ -123,9 +123,9 @@ $result = $conexao->query($sql);
     </div>
     
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
-    <script src="crudphp/js/sistema.js"></script>
-    <script src="crudphp/js/edit.js"></script>
-    <script src="crudphp/js/search-user.js"></script>
+    <script src="js/sistema.js"></script>
+    <script src="js/edit.js"></script>
+    <script src="js/search-user.js"></script>
 </body>
 
 </html>

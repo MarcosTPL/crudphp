@@ -14,7 +14,7 @@ function processForm() {
   // está transforando o json em um json string para enviar para o servidor
   var json = JSON.stringify(object);
 
-  fetch('crudphp/api/editar-usuario.php', {
+  fetch('api/editar-usuario.php', {
     method: 'POST',
     headers: {
       'Content-Type': 'application/json'

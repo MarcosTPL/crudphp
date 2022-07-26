@@ -16,7 +16,7 @@ function processForm(e) {
   // está transforando o json em um json string para enviar para o servidor
   var json = JSON.stringify(object);
 
-  fetch('crudphp/api/valida-login.php', {
+  fetch('api/valida-login.php', {
     method: 'POST',
     headers: {
       'Content-Type': 'application/json'

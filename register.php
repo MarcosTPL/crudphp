@@ -6,7 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Formulário | GN</title>
-    <link rel="stylesheet" type="text/css" href="crudphp/css/register-style.css">
+    <link rel="stylesheet" type="text/css" href="css/register-style.css">
     
 </head>
 
@@ -70,6 +70,6 @@
     </div>
 </body>
 
-<script src="crudphp/js/register.js"></script>
+<script src="js/register.js"></script>
 
 </html>

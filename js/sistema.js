@@ -6,7 +6,7 @@ function deleteUser(id){
             id: id
         });
       
-        fetch('crudphp/api/delete.php', {
+        fetch('api/delete.php', {
           method: 'POST',
           headers: {
             'Content-Type': 'application/json'

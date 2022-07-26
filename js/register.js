@@ -10,7 +10,7 @@ function processForm(e) {
     });
     var json = JSON.stringify(object);
   
-    fetch('crudphp/api/inserir-usuario.php', {
+    fetch('api/inserir-usuario.php', {
       method: 'POST',
       headers: {
         'Content-Type': 'application/json'

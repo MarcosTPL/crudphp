@@ -1,5 +1,5 @@
 <?php
-    include_once ('../../config.php');
+    include_once ('..localhost/../config.php');
     $data = json_decode(file_get_contents("php://input"), true);
 
     if(!empty($data['id']))
